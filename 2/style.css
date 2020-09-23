@@ -1,0 +1,11 @@
+body{
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.initialText {
+    color: brown;
+}
+
+.outputText {
+    color: green;
+}
