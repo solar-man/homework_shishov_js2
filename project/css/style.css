@@ -1,0 +1,35 @@
+.btn-cart {
+    padding: 12px 15px;
+    border: 1px solid #eaeaea;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #f16d7f;
+    margin-bottom: 50px;
+}
+
+.btn-cart:hover {
+    cursor: pointer;
+}
+
+.products {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 150px);
+}
+
+.by-btn {
+    padding: 12px 15px;
+    border: 1px solid #eaeaea;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    background-color: #f16d7f;
+    line-height: 20px;
+}
+
+.by-btn:hover {
+    cursor: pointer;
+}
