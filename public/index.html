@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <title>Product Page Grid</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://use.fontawesome.com/0fac504a7c.js"></script>
+</head>
+
+<body>
+    <div id="app">
+    <header class="header">
+        <div class="myContainer headerInside">
+            <a href="index.html" class="logo-home">
+                <div class="logo">
+                    <p>BRAN<span>D</span></p>
+                </div>
+            </a>
+            <filter-el></filter-el>
+            <cart ref="cart"></cart>
+            <button class="accountBtn">
+                <span>My Account</span>
+                <i class="fas fa-caret-down"></i>
+            </button>
+        </div>
+    </header>
+    <nav class="topNav">
+        <a href="">Home</a>
+        <a href="">Men</a>
+        <a href="">Women</a>
+        <a href="">Kids</a>
+        <a href="">Accesories</a>
+        <a href="">Featured</a>
+        <a href="">Hot Deals </a>
+    </nav>
+    <div class="newArrivalsWrap">
+        <div class="myContainer newArrivals">
+            <h1>New arrivals</h1>
+            <nav>
+                <a href="">Home</a>
+                <span>/</span>
+                <a href="">Men</a>
+                <span>/</span>
+                <a href="">New arrivals</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container productPageWrap">
+        <div class="gridContainerMain">
+            <div class="gridContainerMainLeft">
+                <div class="accordion" id="leftProductSelector">
+                    <div class="productsSelector" data-parent="#leftProductSelector">
+                        <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne" class="accordionToggle" role="slider">
+                            Category
+                        </div>
+                        <div id="collapseOne" class="collapse show productSelectorUnits"
+                            data-parent="#leftProductSelector">
+                            <a href="#">Accessories</a>
+                            <a href="#">Bags</a>
+                            <a href="#">Denim</a>
+                            <a href="#">Hoodies & Sweatshirts</a>
+                            <a href="#">Jackets & Coats</a>
+                            <a href="#">Pants</a>
+                            <a href="#">Polos</a>
+                            <a href="#">Shirts</a>
+                            <a href="#">Shoes</a>
+                            <a href="#">Shorts</a>
+                            <a href="#">Sweaters & Knits</a>
+                            <a href="#">T-Shirts</a>
+                            <a href="#">Tanks</a>
+                        </div>
+                    </div>
+                    <div class="productsSelector" data-parent="#leftProductSelector">
+                        <div data-toggle="collapse" data-target="#collapseOneTwo" aria-expanded="false"
+                            aria-controls="collapseOneTwo" class="accordionToggle" role="slider">
+                            Brand
+                        </div>
+                        <div id="collapseOneTwo" class="collapse productSelectorUnits"
+                            data-parent="#leftProductSelector">
+                            <a href="#">Accessories</a>
+                            <a href="#">Bags</a>
+                            <a href="#">Denim</a>
+                            <a href="#">Hoodies & Sweatshirts</a>
+                            <a href="#">Jackets & Coats</a>
+                            <a href="#">Pants</a>
+                            <a href="#">Polos</a>
+                            <a href="#">Shirts</a>
+                            <a href="#">Shoes</a>
+                            <a href="#">Shorts</a>
+                            <a href="#">Sweaters & Knits</a>
+                            <a href="#">T-Shirts</a>
+                            <a href="#">Tanks</a>
+                        </div>
+                    </div>
+
+                    <div class="productsSelector" data-parent="#leftProductSelector">
+                        <div data-toggle="collapse" data-target="#collapseOneTwoThree" aria-expanded="false"
+                            aria-controls="collapseOneTwoThree" class="accordionToggle" role="slider">
+                            Designer
+                        </div>
+                        <div id="collapseOneTwoThree" class="collapse productSelectorUnits"
+                            data-parent="#leftProductSelector">
+                            <a href="#">Accessories</a>
+                            <a href="#">Bags</a>
+                            <a href="#">Denim</a>
+                            <a href="#">Hoodies & Sweatshirts</a>
+                            <a href="#">Jackets & Coats</a>
+                            <a href="#">Pants</a>
+                            <a href="#">Polos</a>
+                            <a href="#">Shirts</a>
+                            <a href="#">Shoes</a>
+                            <a href="#">Shorts</a>
+                            <a href="#">Sweaters & Knits</a>
+                            <a href="#">T-Shirts</a>
+                            <a href="#">Tanks</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gridContainerMainRight">
+                <div class="productsFilter">
+                    <div class="filterWrapGrid">
+                        <div class="productsFilterHead">Trending now</div>
+                        <div class="trendingFiltersWrap">
+                            <a href="#" class="trendingSelect">Bohemian</a>
+                            <span class="divider">|</span>
+                            <a href="#" class="trendingSelect">Floral</a>
+                            <span class="divider">|</span>
+                            <a href="#" class="trendingSelect">Lace Floral</a>
+                            <span class="divider">|</span>
+                            <a href="#" class="trendingSelect">Lace</a>
+                            <span class="divider">|</span>
+                            <a href="#" class="trendingSelect">Bohemian</a>
+                        </div>
+                    </div>
+                    <div class="filterWrapGrid">
+                        <div class="productsFilterHead">Size</div>
+                        <div class="sizeFilterWrap">
+                            <div>
+                                <input id="xxs" type="checkbox" name="size">
+                                <label for="xxs">XXS</label>
+                            </div>
+                            <div>
+                                <input id="xs" type="checkbox" name="size">
+                                <label for="xs">XS</label>
+                            </div>
+                            <div>
+                                <input id="s" type="checkbox" name="size">
+                                <label for="s">S</label>
+                            </div>
+                            <div>
+                                <input id="m" type="checkbox" name="size">
+                                <label for="m">M</label>
+                            </div>
+                            <div>
+                                <input id="l" type="checkbox" name="size">
+                                <label for="l">L</label>
+                            </div>
+                            <div>
+                                <input id="xl" type="checkbox" name="size">
+                                <label for="xl">XL</label>
+                            </div>
+                            <div>
+                                <input id="xxl" type="checkbox" name="size">
+                                <label for="xxl">XXL</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filterWrapGrid">
+                        <div class="productsFilterHead">Price</div>
+                        <div class="priceFilterWrap">
+                            <img src="img/priceRange.svg" alt="">
+                            <div class="priceRangeValues">
+                                <span>$52</span>
+                                <span>$400</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="productSort">
+                    <div class="productSortSelector">
+                        <label for="sortBy">Sort By</label>
+                        <select name="" id="sortBy">
+                            <option value="">Name</option>
+                            <option value="">Brand</option>
+                            <option value="">Price</option>
+                        </select>
+                    </div>
+                    <div class="productSortSelector">
+                        <label for="show">Show</label>
+                        <select name="" id="show">
+                            <option value="">09</option>
+                            <option value="">06</option>
+                            <option value="">03</option>
+                        </select>
+                    </div>
+                </form>
+
+                    <error ref="error"></error>
+                    <products ref="products"></products>
+                </div>
+                <nav aria-label="..." class="paginationWrapOne">
+                    <ul class="pagination paginationWrap">
+                        <li class="page-item">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                                <</a> </li> <li class="page-item"><a class="page-link page-link-active" href="#">1</a>
+                        </li>
+                        <li class="page-item" aria-current="page">
+                            <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item"><a class="page-link" href="#">6</a></li>
+                        <li class="page-item"><a class="page-link" href="#">.....</a></li>
+                        <li class="page-item"><a class="page-link" href="#">20</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">></a>
+                        </li>
+                    </ul>
+                    <button>View All</button>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="benefitsHorizontalGridWrap">
+        <div class="myContainer benefitsHorizontalGrid">
+            <div class="delivery">
+                <div class="deliveryImage"><img src="img/offerDetails1.png" alt=""></div>
+                <div class="deliveryTextBox">
+                    <p class="deliveryTextTop">Free Delivery</p>
+                    <p class="deliveryTextBottom">Worldwide delivery on all. Authorit tively morph
+                        next-generation innov tion with extensive models.</p>
+                </div>
+            </div>
+
+            <div class="sales">
+                <div class="deliveryImage"><img src="img/offerDetails2.png" alt=""></div>
+                <div class="deliveryTextBox">
+                    <p class="deliveryTextTop">Sales & discounts</p>
+                    <p class="deliveryTextBottom">Worldwide delivery on all. Authorit tively morph
+                        next-generation innov tion with extensive models.</p>
+                </div>
+            </div>
+
+            <div class="qa">
+                <div class="deliveryImage"><img src="img/offerDetails3.png" alt=""></div>
+                <div class="deliveryTextBox">
+                    <p class="deliveryTextTop">Quality assurance</p>
+                    <p class="deliveryTextBottom">Worldwide delivery on all. Authorit tively morph
+                        next-generation innov tion with extensive models.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="reviewsWrap">
+        <div class="myContainer reviews">
+            <div class="reviewsLeft">
+                <div class="reviewPerson">
+                    <img src="img/reviewPerson.png" alt="">
+                </div>
+                <div class="reviewText">
+                    <p class="review">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                    <p class="reviewName">Bin Burhan</p>
+                    <p class="reviewPlace">Dhaka, Bd</p>
+                    <div class="pagination">
+                        <a href="" class="bar"></a><a href="" class="bar barActive"></a><a href="" class="bar"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="reviewsCenter"></div>
+            <div class="reviewsRight">
+                <div class="subscribeText">
+                    <p class="subscribeTextTop">Subscribe</p>
+                    <p class="subscribeTextBottom">FOR OUR NEWLETTER AND PROMOTION</p>
+                </div>
+                <form class="subscribeFormWrap" action="#">
+                    <input placeholder="Enter Your Email" type="email">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="myContainer">
+        <div class="footerTop">
+            <div class="footerTopLeft">
+                <a href="" class="logo-home">
+                    <div class="logo">
+                        <p>BRAN<span>D</span></p>
+                    </div>
+                </a>
+                <div class="footerTopText1">
+                    Objectively transition extensive data rather than cross functional solutions. Monotonectally
+                    syndicate
+                    multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array
+                    of
+                    processes and cross-unit partnerships.
+                </div>
+                <div class="footerTopText2">
+                    Efficiently plagiarize 24/365 action items and focused infomediaries.
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+                </div>
+            </div>
+            <div class="footerTopRight">
+                <section class="footerColumn">
+                    <h2>COMPANY</h2>
+                    <nav>
+                        <a href="">Home</a>
+                        <a href="">Shop</a>
+                        <a href="">About</a>
+                        <a href="">How It Works</a>
+                        <a href="">Contact</a>
+                    </nav>
+                </section>
+                <section class="footerColumn">
+                    <h2>INFORMATION</h2>
+                    <nav>
+                        <a href="">Tearms & Condition</a>
+                        <a href="">Privacy Policy</a>
+                        <a href="">How to Buy</a>
+                        <a href="">How to Sell</a>
+                        <a href="">Promotion</a>
+                    </nav>
+                </section>
+                <section class="footerColumn">
+                    <h2>SHOP CATEGORY</h2>
+                    <nav>
+                        <a href="">Men</a>
+                        <a href="">Women</a>
+                        <a href="">Child</a>
+                        <a href="">Apparel</a>
+                        <a href="">Browse All</a>
+                    </nav>
+                </section>
+            </div>
+        </div>
+    </footer>
+    <div class="footerBottom">
+        <div class="myContainer footerBottomWrap">
+            <div class="footerBottomLeft">
+                &copy; 2017 Brand All Rights Reserved.
+            </div>
+            <div class="footerBottomRight">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                <a href=""><i class="fab fa-pinterest-p"></i></a>
+                <a href=""><i class="fab fa-google-plus-g"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/ProductComponent.js"></script>
+    <script src="js/CartComponent.js"></script>
+    <script src="js/FilterComp.js"></script>
+    <script src="js/ErrorComp.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
