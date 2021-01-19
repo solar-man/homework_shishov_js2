@@ -1,0 +1,83 @@
+{
+    "amount": 0,
+    "countGoods": 0,
+    "contents": [
+        {
+            "quantity": 10,
+            "id_product": 2,
+            "product_name": "Пиджак",
+            "price": 3000,
+            "imgPath": "img/products/product2.jpg"
+        },
+        {
+            "quantity": 12,
+            "id_product": 3,
+            "product_name": "Ветровка",
+            "price": 600,
+            "imgPath": "img/products/product3.jpg"
+        },
+        {
+            "quantity": 10,
+            "id_product": 9,
+            "product_name": "Борода",
+            "price": 10000,
+            "imgPath": "img/products/product9.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 2,
+            "product_name": "Пиджак",
+            "price": 3000,
+            "imgPath": "img/products/product2.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 9,
+            "product_name": "Борода",
+            "price": 10000,
+            "imgPath": "img/products/product9.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 9,
+            "product_name": "Борода",
+            "price": 10000,
+            "imgPath": "img/products/product9.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 3,
+            "product_name": "Ветровка",
+            "price": 600,
+            "imgPath": "img/products/product3.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 2,
+            "product_name": "Пиджак",
+            "price": 3000,
+            "imgPath": "img/products/product2.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 3,
+            "product_name": "Ветровка",
+            "price": 600,
+            "imgPath": "img/products/product3.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 6,
+            "product_name": "Жилет",
+            "price": 1100,
+            "imgPath": "img/products/product6.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 3,
+            "product_name": "Ветровка",
+            "price": 600,
+            "imgPath": "img/products/product3.jpg"
+        }
+    ]
+}
